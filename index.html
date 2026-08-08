@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chala Wodajo | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <a href="#home" class="logo">Chala<span>.W</span></a>
+
+        <ul id="navList">
+          <li><a class="nav-link" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#skills">Skills</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <button
+            id="themeToggle"
+            class="theme-toggle"
+            aria-label="Toggle dark mode"
+            aria-pressed="false"
+          >
+            <img src="image/moon.svg" alt="" class="icon-moon" />
+            <img src="image/sun.svg" alt="" class="icon-sun" />
+          </button>
+
+          <button
+            id="navToggle"
+            class="nav-toggle"
+            aria-label="Toggle navigation menu"
+            aria-expanded="false"
+          >
+            <span></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="hero-image">
+          <img src="image/chala.jpg" alt="Chala Wodajo" class="profilepic" />
+        </div>
+
+        <div class="hero-text">
+          <h1>Hi, I'm <span class="accent">Chala</span></h1>
+          <p class="role">
+            <span id="typewriter"></span
+            ><span class="cursor" aria-hidden="true"></span>
+          </p>
+          <p class="lede">
+            I build clean, functional web apps and turn early-stage ideas into
+            products people actually use — from first line of code to launch.
+          </p>
+
+          <div class="cta-row">
+            <a href="#projects" class="btn btn-primary">View my work</a>
+            <a href="#contact" class="btn btn-ghost">Get in touch</a>
+          </div>
+
+          <div class="social-row" aria-label="Social links">
+            <a
+              href="https://web.facebook.com/profile.php?id=100081140001787"
+              target="_blank"
+              rel="noopener"
+              aria-label="Facebook"
+            >
+              <img src="image/facebook.svg" alt="" width="18" />
+            </a>
+            <a
+              href="https://github.com/devchala"
+              target="_blank"
+              rel="noopener"
+              aria-label="GitHub"
+            >
+              <img src="image/github.svg" alt="" width="18" />
+            </a>
+            <a href="#" target="_blank" rel="noopener" aria-label="Telegram">
+              <img src="image/telegram.svg" alt="" width="18" />
+            </a>
+            <a href="#" target="_blank" rel="noopener" aria-label="Instagram">
+              <img src="image/instagram.svg" alt="" width="18" />
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="block reveal">
+        <span class="eyebrow">About</span>
+        <div class="about-grid">
+          <div>
+            <p>
+              I'm Chala Wodajo, front-end web developer who loves turning ideas
+              into clean, functional web apps. I care about the details that
+              make an interface feel effortless — clear layout, fast load times,
+              and code that's easy to maintain.
+            </p>
+            <p>
+              Alongside development, I'm building toward entrepreneurship
+              through digital marketing. I like taking a problem from a rough
+              idea to a working product, not just writing the code someone else
+              designed.
+            </p>
+            <p>
+              Right now I'm deep in a self-directed learning track covering the
+              full MERN stack , sharpening my skills while shipping small
+              projects along the way.
+            </p>
+          </div>
+
+          <div class="stat-list">
+            <div class="stat-card">
+              <span class="stat-num">4</span>
+              <span class="stat-label">projects shipped &amp; in progress</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">MERN-Stack</span>
+              <span class="stat-label">current learning focus</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">AI</span>
+              <span class="stat-label">prompt engineering</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="block reveal">
+        <span class="eyebrow">Skills</span>
+        <div class="skills-groups">
+          <p>
+            I have experiance of those programming languages and tools for more
+            than 3 years.
+          </p>
+
+          <div class="skill-card">
+            <ul class="tag-list">
+              <li>
+                <img src="image/HTML5_logo.webp" alt="" class="tag-icon" />HTML5
+              </li>
+              <li>
+                <img src="image/CSS3_logo.webp" alt="" class="tag-icon" />CSS3
+              </li>
+              <li>
+                <img
+                  src="image/javascript-logo.svg"
+                  alt=""
+                  class="tag-icon"
+                />JavaScript
+              </li>
+              <li>Git &amp; GitHub</li>
+              <li>C++</li>
+              <li>Java</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3>Tools</h3>
+            <ul class="tag-list">
+              <li>VS Code</li>
+              <li>IntelliJ IDEA</li>
+              <li>Chrome DevTools</li>
+              <li>My SQL</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="block reveal">
+        <span class="eyebrow">Projects</span>
+        <div class="project-grid">
+          <div class="project-box">
+            <div class="project-top">
+              <h3>Library Management System</h3>
+              <span class="status-pill">backend only</span>
+            </div>
+            <p>
+              A backend system for managing library records such as books,
+              members, and borrowing/returns which built in Java.
+            </p>
+            <div class="project-stack"><span>Java</span></div>
+            <a
+              href="https://github.com/devchala/library-management-system-java"
+              target="_blank"
+              rel="noopener"
+              class="project-link"
+            >
+              View on GitHub
+            </a>
+          </div>
+
+          <div class="project-box">
+            <div class="project-top">
+              <h3>Student Task Dashboard</h3>
+              <span class="status-pill status-front">frontend only</span>
+            </div>
+            <p>
+              A dashboard where students can view, add, and track their tasks
+              and assignments.
+            </p>
+            <div class="project-stack">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <a
+              href="https://github.com/devchala/chala-student-task-dashboard"
+              target="_blank"
+              rel="noopener"
+              class="project-link"
+            >
+              View on GitHub
+            </a>
+          </div>
+
+          <div class="project-box">
+            <div class="project-top">
+              <h3>Class Scheduling System</h3>
+              <span class="status-pill status-db">database</span>
+            </div>
+            <p>
+              A relational database for university class scheduling which has
+              departments, courses, instructors, rooms, and time slots with
+              views for schedules and room utilization, an audit trigger, and
+              transaction-safe inserts.
+            </p>
+            <div class="project-stack"><span>SQL</span></div>
+            <a
+              href="https://github.com/devchala/Library-Management-System-SQL"
+              target="_blank"
+              rel="noopener"
+              class="project-link"
+            >
+              View on GitHub
+            </a>
+          </div>
+
+          <div class="project-box">
+            <div class="project-top">
+              <h3>Ethiopian Airline Database</h3>
+              <span class="status-pill status-db">database</span>
+            </div>
+            <p>
+              A relational database modeling an airline's operations that has
+              pilots, aircraft, passengers, flights, and bookings — with a
+              multi-table join pulling full booking details into a single
+              report.
+            </p>
+            <div class="project-stack"><span>SQL</span></div>
+            <a
+              href="https://github.com/devchala/Ethiopian_Airline_System_Demo"
+              target="_blank"
+              rel="noopener"
+              class="project-link"
+            >
+              View on GitHub
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="block reveal">
+        <span class="eyebrow">Contact</span>
+        <div class="contact-layout">
+          <div class="contact-intro">
+            <p>reach me directly below.</p>
+            <ul class="contact-direct">
+              <li>
+                <span class="k">Email</span>
+                <a href="mailto:chalawadajo@gmail.com">chalawadajo@gmail.com</a>
+              </li>
+              <li>
+                <span class="k">GitHub</span>
+                <a
+                  href="https://github.com/devchala"
+                  target="_blank"
+                  rel="noopener"
+                  >github.com/devchala</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <form id="contactForm" class="contact-form" novalidate>
+            <div class="form-group">
+              <label for="fullName">Full name</label>
+              <input
+                type="text"
+                id="fullName"
+                name="fullName"
+                placeholder="Your name"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="ex:john@gmail.com"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="What's on your mind?"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">
+              <span class="btn-label">Send message</span>
+            </button>
+            <p id="formStatus" class="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="#home" class="logo">Chala<span>.W</span></a>
+          <p>
+            Web developer & entrepreneur, building clean web apps and shipping
+            ideas one project at a time.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-connect">
+          <h4>Connect</h4>
+          <div class="social">
+            <a
+              href="https://web.facebook.com/profile.php?id=100081140001787"
+              target="_blank"
+              rel="noopener"
+              aria-label="Facebook"
+            >
+              <img src="image/facebook.svg" alt="" width="20" />
+            </a>
+            <a
+              href="https://github.com/devchala"
+              target="_blank"
+              rel="noopener"
+              aria-label="GitHub"
+            >
+              <img src="image/github.svg" alt="" width="20" />
+            </a>
+            <a href="#" target="_blank" rel="noopener" aria-label="Instagram">
+              <img src="image/instagram.svg" alt="" width="20" />
+            </a>
+            <a href="#" target="_blank" rel="noopener" aria-label="TikTok">
+              <img src="image/tiktok.svg" alt="" width="20" />
+            </a>
+            <a href="#" target="_blank" rel="noopener" aria-label="YouTube">
+              <img src="image/youtube.svg" alt="" width="20" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p id="footer-bottom-note">
+          &copy; <span id="year"></span> Chala.W All rights reserved.
+        </p>
+        <button id="backToTop" class="back-to-top" aria-label="Back to top">
+          ↑
+        </button>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
