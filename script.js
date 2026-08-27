@@ -46,7 +46,7 @@ themeToggle.addEventListener("click", () => {
 });
 
 const typewriterEl = document.getElementById("typewriter");
-const roles = ["Web Developer", "Entrepreneur", "Photo Editor","Digital Marketer"];
+const roles = ["Web Developer", "Entrepreneur", "Photo Editor","Prompt Engineer"];
 let roleIndex = 0;
 let charIndex = 0;
 let deleting = false;

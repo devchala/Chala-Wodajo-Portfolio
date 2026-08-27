@@ -261,9 +261,10 @@ p {
 .nav-toggle span::after {
   content: "";
   position: absolute;
-  left: 9px;
-  width: 20px;
-  height: 2px;
+  left: 8px;
+  width: 22px;
+  height: 3px;
+  border-radius: 999px;
   background: var(--gray-800);
   transition:
     transform 0.2s ease,
@@ -271,7 +272,7 @@ p {
     background 0.2s ease;
 }
 .nav-toggle span {
-  top: 19px;
+  top: 18px;
 }
 .nav-toggle span::before {
   top: -7px;
