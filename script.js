@@ -46,7 +46,7 @@ themeToggle.addEventListener("click", () => {
 });
 
 const typewriterEl = document.getElementById("typewriter");
-const roles = ["Web Developer", "Entrepreneur", "Photo Editor","Prompt Engineer"];
+const roles = ["Web Developer","Full-Stack Engineer", "Entrepreneur", "Prompt Engineer"];
 let roleIndex = 0;
 let charIndex = 0;
 let deleting = false;
@@ -131,13 +131,7 @@ backToTop.addEventListener("click", () => {
 // ==========================================================
 document.getElementById("year").textContent = new Date().getFullYear();
 
-// ==========================================================
-// CONTACT FORM
-// Static site, no backend — this opens the visitor's own
-// email app with the message pre-filled and addressed to you.
-// Swap for Formspree or EmailJS later if you want silent
-// submission without opening an email app.
-// ==========================================================
+
 const contactForm = document.getElementById("contactForm");
 const formStatus = document.getElementById("formStatus");
 const submitBtn = contactForm.querySelector(".btn-submit");
