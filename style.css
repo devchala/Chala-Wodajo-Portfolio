@@ -261,32 +261,45 @@ p {
 .nav-toggle span::after {
   content: "";
   position: absolute;
-  left: 8px;
-  width: 22px;
   height: 3px;
   border-radius: 999px;
   background: var(--gray-800);
   transition:
     transform 0.2s ease,
     opacity 0.2s ease,
-    background 0.2s ease;
+    background 0.2s ease,
+    width 0.2s ease,
+    left 0.2s ease;
 }
+/* middle bar — full width, centered */
 .nav-toggle span {
   top: 18px;
+  left: 9px;
+  width: 22px;
 }
+/* top bar — shorter, centered */
 .nav-toggle span::before {
   top: -7px;
+  left: 4px;
+  width: 14px;
 }
+/* bottom bar — medium, centered */
 .nav-toggle span::after {
   top: 7px;
+  left: 2px;
+  width: 18px;
 }
 .nav-toggle.open span {
   background: transparent;
 }
 .nav-toggle.open span::before {
+  left: 9px;
+  width: 22px;
   transform: translateY(7px) rotate(45deg);
 }
 .nav-toggle.open span::after {
+  left: 9px;
+  width: 22px;
   transform: translateY(-7px) rotate(-45deg);
 }
 
